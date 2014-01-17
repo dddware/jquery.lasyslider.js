@@ -1,0 +1,28 @@
+
+		ul {
+		  padding: 0;
+		  margin: 0;
+		}
+
+		li {
+		  overflow: hidden;
+		  margin: 0;
+		  padding: 0;
+		  height: 200px;
+		  list-style-type: none;
+		  -webkit-box-sizing: border-box;
+		  box-sizing: border-box;
+		  float: left;
+		  text-align: center;
+		  background: #dddddd;
+		  transition: all 0.5s;
+		}
+		li:nth-child(even) {
+		  background: #eeeeee;
+		}
+		img {
+			display: block;
+		}	
+		button {
+			user-select: none;
+		}
